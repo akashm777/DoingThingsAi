@@ -202,7 +202,7 @@ export default function Events() {
             <button
               key={t}
               onClick={() => setTab(t)}
-              className={`font-body text-sm font-medium px-5 py-2 rounded-pill transition-all duration-200 border ${
+              className={`font-body text-sm font-medium px-5 py-2.5 rounded-pill transition-all duration-200 border ${
                 tab === t
                   ? 'bg-navy text-cream border-navy'
                   : 'bg-transparent text-navy/60 border-navy/20 hover:border-navy/40'

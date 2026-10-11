@@ -143,7 +143,7 @@ export default function BuildInPublic() {
           <p className="font-body text-sm text-navy/50 tracking-wide mb-5">
             From past Build &amp; Blend sessions — drag or scroll to explore
           </p>
-          <div style={{ height: '500px', position: 'relative' }}>
+          <div style={{ height: 'clamp(280px, 55vw, 500px)', position: 'relative' }}>
             <CircularGallery
               items={galleryItems}
               bend={1}

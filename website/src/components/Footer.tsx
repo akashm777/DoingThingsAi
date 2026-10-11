@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="font-display font-extrabold text-navy text-2xl mb-1 tracking-tight">
               Doing<span className="text-accent">Things</span>AI
             </div>
-            <p className="font-body text-sm text-navy/50 mb-6 max-w-xs leading-relaxed">
+            <p className="font-body text-sm text-navy/50 mb-6 max-w-sm leading-relaxed">
               Chennai's human-first 0→1 AI builder community. Closed-door by design.
             </p>
             <p className="font-body text-xs text-navy/40 mb-3 tracking-wide lowercase">follow us</p>
@@ -42,7 +42,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="text-navy/50 hover:text-accent transition-colors duration-200"
+                  className="p-2 -m-2 text-navy/50 hover:text-accent transition-colors duration-200"
                 >
                   <Icon size={20} />
                 </a>

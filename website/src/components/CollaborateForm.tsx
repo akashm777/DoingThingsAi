@@ -41,14 +41,15 @@ export default function CollaborateForm() {
         >
           <div className="grid grid-cols-1 md:grid-cols-2">
             {/* Left — image + copy */}
-            <div className="relative min-h-[360px] md:min-h-0">
+            <div className="relative min-h-[240px] md:min-h-0">
               <img
                 src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=700&h=600&fit=crop&q=80"
                 alt="Builders working together"
                 className="absolute inset-0 w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/70 to-transparent" />
-              <div className="relative z-10 p-8 md:p-12 flex flex-col justify-end h-full">
+              {/* gradient: bottom→top on mobile (stacked), left→right on desktop (side-by-side) */}
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/95 via-navy/70 to-transparent md:bg-gradient-to-r md:from-navy/90 md:via-navy/70 md:to-transparent" />
+              <div className="relative z-10 p-6 md:p-12 flex flex-col justify-end h-full">
                 <span className="pill-tag pill-tag-dark mb-4">Join or Collaborate</span>
                 <h2 className="text-h2 text-cream leading-heading mb-4">
                   Imagine being in a room full of people who{' '}

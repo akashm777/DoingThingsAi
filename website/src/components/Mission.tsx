@@ -44,7 +44,7 @@ export default function Mission() {
             </h2>
 
             {/* Founder quote — full, in his own words */}
-            <blockquote className="border-l-2 border-accent pl-6 mb-8">
+            <blockquote className="border-l-2 border-accent pl-4 sm:pl-6 mb-8">
               <p className="font-body text-navy/75 text-lg leading-relaxed italic">
                 "From day one, our goal wasn't to build the biggest AI community. It was to build a community of people who genuinely love getting their hands dirty — building, experimenting, and shipping with AI. That's why almost every event we've hosted has been a closed-door gathering."
               </p>

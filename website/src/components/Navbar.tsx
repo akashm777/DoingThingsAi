@@ -65,7 +65,7 @@ export default function Navbar() {
               href="https://luma.com/h9p8dhgk"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-accent flex items-center justify-center hover:scale-110 transition-transform duration-200 group"
+              className="w-11 h-11 rounded-full bg-accent flex items-center justify-center hover:scale-110 transition-transform duration-200 group"
             >
               <ArrowUpRight size={18} className="text-white group-hover:rotate-12 transition-transform duration-200" />
             </a>
@@ -92,11 +92,11 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
             />
             <motion.div
-              className="fixed top-0 right-0 bottom-0 w-72 bg-bg-light z-50 flex flex-col p-8 md:hidden"
+              className="fixed top-0 right-0 bottom-0 w-72 bg-bg-light z-50 flex flex-col p-6 md:hidden"
               initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }}
               transition={{ type: 'spring', stiffness: 320, damping: 32 }}
             >
-              <button className="self-end mb-8 text-navy" onClick={() => setOpen(false)}>
+              <button className="self-end mb-8 p-2 -m-2 text-navy" onClick={() => setOpen(false)}>
                 <X size={22} />
               </button>
               <nav className="flex flex-col gap-6">

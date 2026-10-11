@@ -121,10 +121,10 @@ export default function Collaborators() {
               className="group rounded-card border border-cream/15 bg-cream/[0.04] p-4 hover:border-cream/30 hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-3">
-                <span className="font-body text-[0.65rem] tracking-[0.14em] uppercase text-cream/45">
+                <span className="font-body text-xs tracking-[0.1em] uppercase text-cream/45">
                   {c.edition}
                 </span>
-                <span className="font-body text-[0.65rem] tracking-[0.14em] uppercase text-accent">
+                <span className="font-body text-xs tracking-[0.1em] uppercase text-accent">
                   {c.label}
                 </span>
               </div>
@@ -140,7 +140,7 @@ export default function Collaborators() {
               <h3 className="font-display font-bold text-cream text-xl mb-1 group-hover:text-accent transition-colors duration-200">
                 {c.name}
               </h3>
-              <p className="font-body text-[0.7rem] tracking-[0.12em] uppercase text-cream/40 mb-4">
+              <p className="font-body text-xs tracking-[0.08em] uppercase text-cream/40 mb-4">
                 {c.location}
               </p>
               <div className="border-t border-cream/10 pt-3">

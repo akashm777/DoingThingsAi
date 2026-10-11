@@ -66,7 +66,7 @@ export default function SuccessStories() {
 
         {/* Cards grid */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 gap-5"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-5"
           variants={container}
           initial="hidden"
           animate={inView ? 'show' : 'hidden'}
@@ -90,7 +90,7 @@ export default function SuccessStories() {
               </div>
 
               {/* Content */}
-              <div className="absolute inset-0 flex flex-col justify-end p-6">
+              <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-6">
                 {/* Metric pill */}
                 <span className="inline-flex self-start items-center px-3 py-1 rounded-pill bg-accent/20 border border-accent/40 text-accent text-xs font-body mb-3">
                   {s.metric}
@@ -117,7 +117,7 @@ export default function SuccessStories() {
             <a href="https://luma.com/h9p8dhgk" target="_blank" rel="noopener noreferrer" className="font-body text-sm font-medium text-cream bg-accent px-5 py-2.5 rounded-pill no-underline hover:bg-accent/90 transition-colors">
               Join the Build
             </a>
-            <a href="https://luma.com/h9p8dhgk" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-cream/50 transition-colors">
+            <a href="https://luma.com/h9p8dhgk" target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-full border border-cream/20 flex items-center justify-center hover:border-cream/50 transition-colors">
               <ArrowUpRight size={16} className="text-cream" />
             </a>
           </div>
