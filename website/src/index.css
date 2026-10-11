@@ -17,6 +17,8 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    max-width: 100%;
   }
 
   body {
@@ -28,6 +30,7 @@
     letter-spacing: -0.01px;
     margin: 0;
     overflow-x: hidden;
+    max-width: 100%;
     font-feature-settings: "calt" 0, "liga" 0, "ss03", "cv01", "cv10", "zero" 0;
   }
 
@@ -145,6 +148,11 @@
     transform: translateY(0);
     transition: opacity 0.65s cubic-bezier(0.19, 1, 0.22, 1),
       transform 0.65s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  /* Prevent sections from leaking content horizontally (Framer Motion x-translate overflow) */
+  section {
+    overflow-x: hidden;
   }
 
   /* Marquee pause on hover */

@@ -12,8 +12,8 @@ export default function Mission() {
           {/* Left — image */}
           <motion.div
             className="relative"
-            initial={{ opacity: 0, x: -30 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, ease: [0.19, 1, 0.22, 1] }}
           >
             <div className="relative rounded-inset overflow-hidden aspect-[4/5]">
@@ -33,8 +33,8 @@ export default function Mission() {
 
           {/* Right — text */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, ease: [0.19, 1, 0.22, 1], delay: 0.1 }}
           >
             <span className="pill-tag">Mission & Vision</span>
