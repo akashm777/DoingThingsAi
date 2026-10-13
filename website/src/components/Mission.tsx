@@ -70,7 +70,7 @@ export default function Mission() {
 
             <div className="flex items-center gap-3">
               <a
-                href="https://luma.com/h9p8dhgk"
+                href="https://luma.com/00dhanbk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-body text-sm font-medium text-cream bg-navy px-6 py-3 rounded-pill no-underline hover:bg-navy-mid transition-colors"
@@ -78,7 +78,7 @@ export default function Mission() {
                 Join the Build
               </a>
               <a
-                href="https://luma.com/h9p8dhgk"
+                href="https://luma.com/00dhanbk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 rounded-full bg-accent flex items-center justify-center hover:scale-110 hover:shadow-orange transition-all duration-200 group"

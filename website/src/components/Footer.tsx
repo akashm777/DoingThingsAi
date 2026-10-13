@@ -19,12 +19,12 @@ const socials = [
 export default function Footer() {
   return (
     <footer
-      className="pt-20 pb-8"
+      className="pt-12 pb-8"
       style={{ background: 'linear-gradient(to bottom, #E8E2D9, #F2F0EC)' }}
     >
       <div className="site-container">
         {/* Main grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
           {/* Col 1 — Logo & Social */}
           <div>
             <div className="font-display font-extrabold text-navy text-2xl mb-1 tracking-tight">
@@ -42,7 +42,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="p-2 -m-2 text-navy/50 hover:text-accent transition-colors duration-200"
+                  className="p-3 text-navy/50 hover:text-accent transition-colors duration-200"
                 >
                   <Icon size={20} />
                 </a>

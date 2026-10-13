@@ -3,43 +3,56 @@ import { useInView } from '../hooks/useInView'
 import { ExternalLink, Globe } from 'lucide-react'
 import CircularGallery from './CircularGallery'
 
+import build14 from '../assets/Build-14.jpg'
+import build13 from '../assets/Build-13.jpg'
+import womenWhoBuild from '../assets/Women-Who-Build.jpg'
+import agentCraft from '../assets/Agent-craft.jpg'
+import gallery1 from '../assets/1.jpg'
+import gallery2 from '../assets/2.jpg'
+import gallery3 from '../assets/3.jpg'
+import gallery4 from '../assets/4.jpg'
+import gallery5 from '../assets/5.jpg'
+import gallery6 from '../assets/6.jpg'
+import gallery7 from '../assets/7.jpg'
+import gallery8 from '../assets/8.jpg'
+
 // Static social-feed-style cards (no backend, no API)
 const feedCards = [
   {
     handle: '@doingthingsai',
     caption: '"8 people. 3 hours. A lot happened in one room." — Build & Blend #14',
-    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=380&h=260&fit=crop&q=80',
+    image: build14,
     date: 'Sep 23, 2026',
   },
   {
     handle: '@doingthingsai',
     caption: '"No long talks. Mostly building." — Build & Blend #13: Build something. Find users. Talk money.',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=380&h=260&fit=crop&q=80',
+    image: build13,
     date: 'Sep 13, 2026',
   },
   {
     handle: '@doingthingsai',
     caption: 'Women Who Build #1 — Participants built, pitched to buyers, generated Rs.4,300 in revenue. In one session.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=380&h=260&fit=crop&q=80',
+    image: womenWhoBuild,
     date: 'Sep 14, 2026',
   },
   {
     handle: '@doingthingsai',
     caption: 'AgentCraft — DoingThingsAI as Community Partner. AI agent builders. House of Cyces, Chennai.',
-    image: 'https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=380&h=260&fit=crop&q=80',
+    image: agentCraft,
     date: 'Sep 19, 2026',
   },
 ]
 
 const galleryItems = [
-  { image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&h=600&fit=crop&q=80', text: 'Build & Blend #14' },
-  { image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop&q=80', text: 'Edition 13' },
-  { image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop&q=80', text: 'Women Who Build' },
-  { image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop&q=80', text: 'Edition 12' },
-  { image: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&h=600&fit=crop&q=80', text: 'Edition 11' },
-  { image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop&q=80', text: 'AgentCraft' },
-  { image: 'https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&h=600&fit=crop&q=80', text: 'Edition 10' },
-  { image: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&h=600&fit=crop&q=80', text: 'Edition 15' },
+  { image: gallery1, text: '' },
+  { image: gallery2, text: '' },
+  { image: gallery3, text: '' },
+  { image: gallery4, text: '' },
+  { image: gallery5, text: '' },
+  { image: gallery6, text: '' },
+  { image: gallery7, text: '' },
+  { image: gallery8, text: '' },
 ]
 
 const container: Variants = {

@@ -62,7 +62,7 @@ export default function CollaborateForm() {
                   href="https://wa.me/919677295965"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 font-body text-sm font-medium text-cream border border-cream/30 px-5 py-2.5 rounded-pill no-underline hover:bg-cream/10 transition-colors self-start"
+                  className="flex items-center gap-2 font-body text-sm font-medium text-cream border border-cream/30 px-5 py-3 rounded-pill no-underline hover:bg-cream/10 transition-colors self-start"
                 >
                   <MessageCircle size={15} />
                   WhatsApp Chandru directly
@@ -71,7 +71,7 @@ export default function CollaborateForm() {
             </div>
 
             {/* Right — form */}
-            <div className="bg-bg-light p-8 md:p-12">
+            <div className="bg-bg-light p-6 md:p-12">
               {sent ? (
                 <motion.div
                   initial={{ opacity: 0, scale: 0.95 }}
@@ -152,7 +152,7 @@ export default function CollaborateForm() {
                     />
                   </div>
 
-                  <div className="flex items-center gap-3 pt-1">
+                  <div className="flex flex-wrap items-center gap-3 pt-1">
                     <button
                       type="submit"
                       className="font-body text-sm font-medium text-cream bg-navy px-7 py-3.5 rounded-pill hover:bg-navy-mid hover:scale-[0.98] transition-all duration-200"

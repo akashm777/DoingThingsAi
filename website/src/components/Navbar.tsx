@@ -54,7 +54,7 @@ export default function Navbar() {
           {/* CTA Pair */}
           <div className="hidden md:flex items-center gap-2">
             <a
-              href="https://luma.com/h9p8dhgk"
+              href="https://luma.com/00dhanbk"
               target="_blank"
               rel="noopener noreferrer"
               className="font-body text-sm font-semibold text-cream bg-navy px-5 py-2.5 rounded-pill no-underline hover:bg-navy-mid transition-colors duration-200"
@@ -62,7 +62,7 @@ export default function Navbar() {
               Join the Build
             </a>
             <a
-              href="https://luma.com/h9p8dhgk"
+              href="https://luma.com/00dhanbk"
               target="_blank"
               rel="noopener noreferrer"
               className="w-11 h-11 rounded-full bg-accent flex items-center justify-center hover:scale-110 transition-transform duration-200 group"
@@ -73,7 +73,7 @@ export default function Navbar() {
 
           {/* Hamburger */}
           <button
-            className="md:hidden p-2 text-navy"
+            className="md:hidden p-3 -mr-1 text-navy"
             onClick={() => setOpen(true)}
             aria-label="Open menu"
           >
@@ -96,7 +96,7 @@ export default function Navbar() {
               initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }}
               transition={{ type: 'spring', stiffness: 320, damping: 32 }}
             >
-              <button className="self-end mb-8 p-2 -m-2 text-navy" onClick={() => setOpen(false)}>
+              <button className="self-end mb-8 p-3 -mr-1 text-navy" onClick={() => setOpen(false)}>
                 <X size={22} />
               </button>
               <nav className="flex flex-col gap-6">
@@ -113,16 +113,16 @@ export default function Navbar() {
               </nav>
               <div className="mt-auto flex gap-3">
                 <a
-                  href="https://luma.com/h9p8dhgk"
+                  href="https://luma.com/00dhanbk"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setOpen(false)}
-                  className="flex-1 text-center font-body text-sm font-semibold text-cream bg-navy px-5 py-3 rounded-pill no-underline"
+                  className="flex-1 text-center font-body text-sm font-semibold text-cream bg-navy px-5 py-3.5 rounded-pill no-underline"
                 >
                   Join the Build
                 </a>
                 <a
-                  href="https://luma.com/h9p8dhgk"
+                  href="https://luma.com/00dhanbk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-accent flex items-center justify-center"
