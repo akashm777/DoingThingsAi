@@ -2,6 +2,9 @@ import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
 import { ArrowUpRight, Hammer } from 'lucide-react'
 
+import chandru from '../assets/chandru.jpg'
+import shankar from '../assets/shankar.jpg'
+
 const builders = [
   {
     name: 'Chandrasekar J',
@@ -9,7 +12,7 @@ const builders = [
     role: 'Founder, DoingThingsAI',
     bio: 'Full-stack marketer turned builder. 12 years across product marketing, GTM, and brand building. Engineer-turned-marketer who started DoingThingsAI to build quality over quantity.',
     built: 'NammaKuppai - Chennai Civic Issue Reporting Platform',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=320&h=380&fit=crop&q=80',
+    image: chandru,
     tags: ['Marketing', 'GTM', 'Community'],
   },
   {
@@ -18,7 +21,7 @@ const builders = [
     role: 'Recurring Host, Build & Blend',
     bio: 'Recurring host across Build & Blend editions 11 and 15. A builder who shows up every week to hold the room, challenge ideas, and make sure everyone ships something.',
     built: 'Hosted 2+ Build & Blend editions',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=320&h=380&fit=crop&q=80',
+    image: shankar,
     tags: ['Hosting', 'AI Builders', 'Community'],
   },
 ]
@@ -67,13 +70,6 @@ export default function Builders() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">
-                  <div className="flex flex-wrap gap-1.5 mb-2">
-                    {b.tags.map((t) => (
-                      <span key={t} className="text-xs font-body px-2 py-0.5 rounded-pill bg-accent/25 text-accent border border-accent/30">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
                   <h3 className="font-display font-bold text-cream text-xl">{b.name}</h3>
                   <p className="font-body text-cream/60 text-sm">{b.role}</p>
                 </div>

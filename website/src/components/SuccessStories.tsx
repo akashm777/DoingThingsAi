@@ -2,34 +2,35 @@ import { motion, type Variants } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
 import { ArrowUpRight } from 'lucide-react'
 
+import scene044 from '../assets/scene044.jpg'
+import parent_app from '../assets/parent_app.jpg'
+import outreach from '../assets/outreach.jpg'
+import revenue from '../assets/revenue.jpg'
+
 const stories = [
   {
     builder: 'A builder at Women Who Build #1',
     product: 'scene_044',
     outcome: 'Started at Women Who Build #1, launched publicly.',
-    metric: 'Publicly live',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&h=340&fit=crop&q=80',
+    image: scene044,
   },
   {
     builder: 'A builder at Build & Blend',
     product: 'AI Outreach Manager',
     outcome: 'Built a prototype at Build & Blend, returned the next edition to iterate.',
-    metric: 'Iterated live',
-    image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=480&h=340&fit=crop&q=80',
+    image: outreach,
   },
   {
     builder: 'A builder at Edition 11',
     product: 'Parent To-Do App',
     outcome: 'Built with Claude — includes baby sleep-tracking for family members.',
-    metric: 'Shipped with Claude',
-    image: 'https://images.unsplash.com/photo-1555421689-d68471e189f2?w=480&h=340&fit=crop&q=80',
+    image: parent_app,
   },
   {
     builder: 'Women Who Build #1 cohort',
     product: '₹4,300 Combined Revenue',
     outcome: 'Participants built, pitched to buyers and generated real revenue in one session.',
-    metric: '₹4,300 revenue',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=480&h=340&fit=crop&q=80',
+    image: revenue,
   },
 ]
 
@@ -91,10 +92,6 @@ export default function SuccessStories() {
 
               {/* Content */}
               <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-6">
-                {/* Metric pill */}
-                <span className="inline-flex self-start items-center px-3 py-1 rounded-pill bg-accent/20 border border-accent/40 text-accent text-xs font-body mb-3">
-                  {s.metric}
-                </span>
                 <p className="font-body text-cream/60 text-xs mb-1">{s.builder}</p>
                 <h3 className="font-display font-bold text-cream text-xl leading-tight mb-2">{s.product}</h3>
                 <p className="font-body text-cream/70 text-sm leading-relaxed">{s.outcome}</p>

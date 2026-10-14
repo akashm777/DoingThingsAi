@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
 import { ArrowUpRight } from 'lucide-react'
 
+import Mission_Vision from '../assets/Mission_Vision.jpg'
+
 export default function Mission() {
   const { ref, inView } = useInView()
 
@@ -18,7 +20,7 @@ export default function Mission() {
           >
             <div className="relative rounded-inset overflow-hidden aspect-[4/5]">
               <img
-                src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=600&h=750&fit=crop&q=80"
+                src={Mission_Vision}
                 alt="Builders at a DoingThingsAI session"
                 className="w-full h-full object-cover"
               />
